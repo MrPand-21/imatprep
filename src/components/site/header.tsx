@@ -5,8 +5,8 @@ import { Container } from "@/components/ui/container";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/syllabus", label: "Syllabus" },
   { href: "/method", label: "Method" },
+  { href: "/syllabus", label: "Syllabus" },
   { href: "/pricing", label: "Pricing" },
 ];
 

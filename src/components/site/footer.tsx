@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Container } from "@/components/ui/container";
 
 const footerLinks = [
-  { href: "/syllabus", label: "Syllabus" },
   { href: "/method", label: "Method" },
+  { href: "/syllabus", label: "Syllabus" },
   { href: "/pricing", label: "Pricing" },
   { href: "/#contact", label: "Contact" },
 ];

@@ -78,51 +78,38 @@ html {
 
 .logo-breathe {
   animation: logo-breathe 4s ease-in-out infinite;
-  filter: drop-shadow(
-    0 0 10px color-mix(in srgb, var(--accent) 62%, transparent)
-  );
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--accent) 62%, transparent));
 }
 
 @keyframes logo-breathe {
+
   0%,
   100% {
     transform: scale(1);
-    filter: drop-shadow(
-      0 0 10px color-mix(in srgb, var(--accent) 62%, transparent)
-    );
+    filter: drop-shadow(0 0 10px color-mix(in srgb, var(--accent) 62%, transparent));
   }
 
   50% {
     transform: scale(1.05);
-    filter: drop-shadow(
-      0 0 14px color-mix(in srgb, var(--accent) 72%, transparent)
-    );
+    filter: drop-shadow(0 0 14px color-mix(in srgb, var(--accent) 72%, transparent));
   }
 }
 
 .imat-showcase-card {
   background:
-    linear-gradient(
-      160deg,
+    linear-gradient(160deg,
       color-mix(in srgb, var(--primary) 90%, black),
-      color-mix(in srgb, var(--primary) 74%, #111)
-    )
-    padding-box,
-    linear-gradient(
-      45deg,
+      color-mix(in srgb, var(--primary) 74%, #111)) padding-box,
+    linear-gradient(45deg,
       color-mix(in srgb, var(--primary) 62%, black),
       color-mix(in srgb, var(--accent) 42%, #1f3a2e),
-      color-mix(in srgb, var(--primary) 62%, black)
-    )
-    border-box;
+      color-mix(in srgb, var(--primary) 62%, black)) border-box;
 }
 
 .imat-showcase-noise {
-  background-image: radial-gradient(
-    circle at 1px 1px,
-    rgb(255 255 255 / 0.08) 1px,
-    transparent 0
-  );
+  background-image: radial-gradient(circle at 1px 1px,
+      rgb(255 255 255 / 0.08) 1px,
+      transparent 0);
   background-size: 3px 3px;
   opacity: 0.24;
   pointer-events: none;
@@ -130,21 +117,15 @@ html {
 
 .premium-stage {
   background:
-    radial-gradient(
-      circle at 18% 0%,
+    radial-gradient(circle at 18% 0%,
       color-mix(in srgb, var(--accent) 20%, transparent),
-      transparent 46%
-    ),
-    radial-gradient(
-      circle at 82% 95%,
+      transparent 46%),
+    radial-gradient(circle at 82% 95%,
       color-mix(in srgb, var(--secondary) 24%, transparent),
-      transparent 50%
-    ),
-    linear-gradient(
-      165deg,
+      transparent 50%),
+    linear-gradient(165deg,
       color-mix(in srgb, var(--primary) 92%, #03090b),
-      color-mix(in srgb, var(--primary) 84%, #050b0f)
-    );
+      color-mix(in srgb, var(--primary) 84%, #050b0f));
 }
 
 .premium-grid-lines {
@@ -157,11 +138,9 @@ html {
 }
 
 .premium-noise {
-  background-image: radial-gradient(
-    circle at 1px 1px,
-    rgb(255 255 255 / 0.1) 1px,
-    transparent 0
-  );
+  background-image: radial-gradient(circle at 1px 1px,
+      rgb(255 255 255 / 0.1) 1px,
+      transparent 0);
   background-size: 3px 3px;
   opacity: 0.2;
   pointer-events: none;
